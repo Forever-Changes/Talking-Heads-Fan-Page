@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+
+@font-face {
+    font-family: sixcaps;
+    src: url(assets/fonts/SixCaps-Regular.ttf);
+}
+
+@font-face {
+    font-family: permanent;
+    src: url(assets/fonts/OPTIPermanent-Headline.otf);
+}
+
+
+h1 {
+
+}
+
+h2 {
+
+}
+
+h3 {
+
+}
+
+#titleleft {
+    font-family: sixcaps;
+    color: black;
+    background-color: white;
+    font-style: italic;
+    font-size: 160px;
+    text-align: center;
+    font-weight: bold;
+    border-width: 10px 5px 0px 5px;
+    border-color: black;
+    border-style: solid;
+}
+
+#titleright {
+    font-family: sixcaps;
+    color: white;
+    background-color: red;
+    font-style: italic;
+    font-size: 160px;
+    text-align: center;
+    font-weight: bold;
+    border-width: 0px 5px 10px 5px;
+    border-color: black;
+    border-style: solid;
+}
+
+#thbw {
+    background-image: url(assets/img/thpostcardblack.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+}
