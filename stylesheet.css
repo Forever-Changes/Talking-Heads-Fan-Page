@@ -57,17 +57,20 @@ h3 {
     border-style: solid;
 }
 
-#thbw {
-    background-image: url(assets/img/thpostcardblack.jpg);
-    background-repeat: no-repeat;
-    background-size: cover;
-    object-fit: cover;
+#thimg {
     width: 100%;
-    height: 100%;
+    object-fit: contain;
     border-width: 0px 0px 10px 0px;
     border-color: black;
     border-style: solid;
 }
+
+
+
+
+
+
+
 
 #body {
     width: 80%;
